@@ -45,33 +45,33 @@
 		colors: {
 			// Background colors
 			bg: {
-				light: "237 237 237",
-				dark: "18 18 18",
+				light: "240 240 240",
+				dark: "44 44 44",
 			},
 			// Main text colors
 			text: {
-				light: "30 26 35",
-				dark: "224 220 229",
+				light: "44 44 44",
+				dark: "228 228 228",
 			},
 			// Link colors
 			link: {
-				light: "234 133 202",
-				dark: "122 21 90",
+				light: "5 86 127",
+				dark: "168 218 220",
 			},
 			// Primary accent color (e.g., for titles, highlights)
 			accent: {
-				light: "185 159 234",
-				dark: "47 21 96",
+				light: "130 38 89",
+				dark: "201 177 232",
 			},
 			// Secondary accent color (e.g., for borders, subtle highlights)
 			"accent-2": {
-				light: "200 146 232",
-				dark: "78 23 109",
+				light: "235 181 228",
+				dark: "255 193 204",
 			},
 			// Color for blockquotes and other special text
 			quote: {
-				light: "234 133 202",
-				dark: "122 21 90",
+				light: "130 38 89",
+				dark: "201 177 232",
 			},
 		},
 		"fontfamily-google-fonts": {
