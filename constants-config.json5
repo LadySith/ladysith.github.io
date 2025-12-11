@@ -82,7 +82,7 @@
 			"sans-font-name": "Noto Sans",
 			// Monospace font for code blocks (e.g., "Fira Code", "JetBrains Mono")
 			// No need to escape spaces in font names!
-			"mono-font-name": "Noto Sans Mono",
+			"mono-font-name": "Noto Sans",
 		},
 	},
 
