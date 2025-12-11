@@ -169,7 +169,7 @@
 				// Your Bluesky handle (e.g., "yourname.bsky.social").
 				author: "sithe.me",
 				// The emoji used in your Bluesky post to signify it's a blog post "echo" and should be searched.
-				"echo-feed-emoji": "🥳",
+				"echo-feed-emoji": "",
 			},
 		},
 
