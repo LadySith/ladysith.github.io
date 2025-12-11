@@ -107,7 +107,7 @@
 		"buy-me-a-coffee": "",
 		"this-github-repo": ""
 		// This link is for forked repo you'll end up having. Feel free to change it to your needs.
-		//"this-github-repo": "https://github.com/nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
+		"this-github-repo": "",
 	},
 
 	// === Analytics Tracking ===
