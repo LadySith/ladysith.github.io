@@ -90,24 +90,21 @@
 	// Add your social media profile URLs here. They will be displayed in the site's social list component.
 	// The keys (e.g., 'github', 'twitter') are fixed and correspond to specific icons.
 	socials: {
-		"email": "mailto:me.sithe.ncube+contact@gmail.com",
-		"github": "github.com/LadySith",
-		"googlescholar": "",
-		"semanticscholar": "",
-		"dblp": "",
-		"substack": "",
-		"facebook": "",
-		"twitter": "",
-		"threads": "",
-		"instagram": "instagram.com/_ladysith",
-		"mastodon": "",
-		"bluesky": "bsky.app/profile/sithe.me",
-		"calendar": "",
-		"kofi": "ko-fi.com/ladysith",
+		email: "mailto:me.sithe.ncube+contact@gmail.com",
+		github: "github.com/LadySith",
+		googlescholar: "",
+		semanticscholar: "",
+		dblp: "",
+		substack: "",
+		facebook: "",
+		twitter: "",
+		threads: "",
+		instagram: "instagram.com/_ladysith",
+		mastodon: "",
+		bluesky: "bsky.app/profile/sithe.me",
+		calendar: "",
+		kofi: "ko-fi.com/ladysith",
 		"buy-me-a-coffee": "",
-		"this-github-repo": ""
-		// This link is for forked repo you'll end up having. Feel free to change it to your needs.
-		"this-github-repo": "",
 	},
 
 	// === Analytics Tracking ===
@@ -164,15 +161,15 @@
 
 		// Display comments from Bluesky posts related to your blog posts.
 		"bluesky-comments": {
-			"show-comments-from-bluesky": false,
+			"show-comments-from-bluesky": true,
 			"auto-search-for-match": {
 				// If true, the site will automatically search for a Bluesky post by the specified author
 				// that contains a link to the current blog post and a specific emoji.
-				"turn-on-auto-search": false,
+				"turn-on-auto-search": true,
 				// Your Bluesky handle (e.g., "yourname.bsky.social").
 				author: "sithe.me",
 				// The emoji used in your Bluesky post to signify it's a blog post "echo" and should be searched.
-				"echo-feed-emoji": "",
+				"echo-feed-emoji": "🥳",
 			},
 		},
 
