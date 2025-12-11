@@ -91,7 +91,7 @@
 	// The keys (e.g., 'github', 'twitter') are fixed and correspond to specific icons.
 	socials: {
 		email: "mailto:me.sithe.ncube+contact@gmail.com",
-		github: "github.com/LadySith",
+		github: "https://github.com/LadySith",
 		googlescholar: "",
 		semanticscholar: "",
 		dblp: "",
@@ -99,11 +99,11 @@
 		facebook: "",
 		twitter: "",
 		threads: "",
-		instagram: "instagram.com/_ladysith",
+		instagram: "https://www.instagram.com/_ladysith",
 		mastodon: "",
-		bluesky: "bsky.app/profile/sithe.me",
+		bluesky: "https://bsky.app/profile/sithe.me",
 		calendar: "",
-		kofi: "ko-fi.com/ladysith",
+		kofi: "https://ko-fi.com/ladysith",
 		"buy-me-a-coffee": "",
 	},
 
