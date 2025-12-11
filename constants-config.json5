@@ -56,22 +56,22 @@
 			// Link colors
 			link: {
 				light: "5 86 127",
-				dark: "168 218 220",
+				dark: "143 187 221",
 			},
 			// Primary accent color (e.g., for titles, highlights)
 			accent: {
-				light: "130 38 89",
-				dark: "201 177 232",
-			},
-			// Secondary accent color (e.g., for borders, subtle highlights)
-			"accent-2": {
 				light: "235 181 228",
 				dark: "255 193 204",
 			},
-			// Color for blockquotes and other special text
-			quote: {
+			// Secondary accent color (e.g., for borders, subtle highlights)
+			"accent-2": {
 				light: "130 38 89",
 				dark: "201 177 232",
+			},
+			// Color for blockquotes and other special text
+			quote: {
+				light: "231 189 116",
+				dark: "236 216 162",
 			},
 		},
 		"fontfamily-google-fonts": {
