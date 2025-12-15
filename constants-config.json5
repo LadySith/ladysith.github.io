@@ -151,16 +151,16 @@
 	comments: {
 		// Giscus is a comments system powered by GitHub Discussions. It's free and open-source. Go here for the process of setting it up: https://giscus.app/
 		giscus: {
-			data-repo="LadySith/ladysith.github.io"
-        	data-repo-id="R_kgDOQD3poQ"
-        	data-category="Comments"
-        	data-category-id="DIC_kwDOQD3poc4Cz005"
-        	data-mapping="pathname"
-        	data-reactions-enabled="1"
-        	data-emit-metadata="0"
-        	data-input-position="top"
-        	data-lang="en"
-        	data-loading="lazy"
+			"data-repo": "LadySith/ladysith.github.io",
+        	"data-repo-id": "R_kgDOQD3poQ",
+        	"data-category": "Comments",
+        	"data-category-id": "DIC_kwDOQD3poc4Cz005",
+        	"data-mapping": "pathname",
+        	"data-reactions-enabled": "1",
+        	"data-emit-metadata": "0",
+        	"data-input-position": "top",
+        	"data-lang": "en",
+        	"data-loading": "lazy"
 		},
 
 		// Display comments from Bluesky posts related to your blog posts.
