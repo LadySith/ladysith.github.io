@@ -6,7 +6,7 @@ import path from "path";
 import fs from "fs";
 import JSON5 from "json5";
 import { CUSTOM_DOMAIN, BASE_PATH, EXTERNAL_CONTENT_CONFIG } from "./src/constants";
-import remarkExternalMdxAssets from "./src/lib/external-content/remark-external-mdx-assets";
+import { remarkExternalMdxAssets } from "./src/lib/external-content/remark-external-mdx-assets";
 import { externalContentVitePlugins } from "./src/lib/vite-external-content-plugins";
 
 const getSite = function () {
