@@ -4,18 +4,18 @@
 	// This section configures the connection to your Notion database.
 	notion: {
 		// (Preferred) The Data Source ID for your Notion integration. This is a more stable way to connect to your database. You can find this in UI here: https://developers.notion.com/reference/retrieve-a-data-source#finding-a-data-source-id
-		"data-source-id": "f6e3813f-eb93-4a77-bbf4-81ad653d63ba",
+		"data-source-id": "28e6de87-1e35-8135-aecc-000b4d288aee",
 		// (Fallback) The classic Database ID. This is used only if 'data-source-id' is empty. The integration will automatically find the Data Source ID and use the first one from this if needed.
-		"database-id": "",
+		"database-id": "28e6de871e3581b69b1bea898f9d5d30",
 	},
 
 	// === Site Information ===
 	// Basic details about your website used for metadata, RSS feeds, and SEO.
 	"site-info": {
 		// Your name or the name of your site's author. Used in RSS feeds, OG images etc and other metadata for attribution.
-		author: "",
+		author: "Sithe",
 		// Your custom domain name (e.g., "example.com"). Important: Do NOT include "https://" or a trailing slash. Leave this empty if you are deploying to a service like Vercel or Netlify without a custom domain.
-		"custom-domain": "",
+		"custom-domain": "sithe.me",
 		// The sub-directory your site is deployed in (e.g., "/blog"). Leave empty if your site is at the root of your domain. Must start with a forward slash "/" if used.
 		"base-path": "",
 		// If the Authors property doesn't exist in your Notion database, all settings from now on below in this key are ignored.
@@ -68,33 +68,33 @@
 		colors: {
 			// Background colors
 			bg: {
-				light: "249 249 249",
-				dark: "28 30 32",
+				light: "240 240 240",
+				dark: "44 44 44",
 			},
 			// Main text colors
 			text: {
-				light: "34 39 42",
-				dark: "255 255 255",
+				light: "44 44 44",
+				dark: "228 228 228",
 			},
 			// Link colors
 			link: {
-				light: "85 123 118",
-				dark: "199 200 203",
+				light: "5 86 127",
+				dark: "143 187 221",
 			},
 			// Primary accent color (e.g., for titles, highlights)
 			accent: {
-				light: "203 41 65",
-				dark: "41 188 136",
+				light: "235 181 228",
+				dark: "255 193 204",
 			},
 			// Secondary accent color (e.g., for borders, subtle highlights)
 			"accent-2": {
-				light: "17 17 17",
-				dark: "237 237 237",
+				light: "130 38 89",
+				dark: "201 177 232",
 			},
 			// Color for blockquotes and other special text
 			quote: {
-				light: "203 41 65",
-				dark: "205 254 183",
+				light: "231 189 116",
+				dark: "236 216 162",
 			},
 		},
 		"fontfamily-google-fonts": {
@@ -102,10 +102,10 @@
 			// We automatically load weights [400, 500, 600, 700] and styles [normal, italic] for all fonts (it is fine if they are not available).
 			// Main body/UI font - can be a sans-serif OR serif typeface (e.g., "Roboto", "Merriweather", "Inter")
 			// If empty and mono-font-name is set, mono will be used for everything.
-			"sans-font-name": "Roboto",
+			"sans-font-name": "Noto",
 			// Monospace font for code blocks (e.g., "Fira Code", "JetBrains Mono")
 			// No need to escape spaces in font names!
-			"mono-font-name": "Roboto Mono",
+			"mono-font-name": "Jetbrains Mono",
 		},
 		// Enable using the cover image as the hero background (with an overlay for text readability).
 		// When enabled, displays a low-opacity tinted banner behind the title/date/tags area
@@ -117,23 +117,24 @@
 	// Add your social media profile URLs here. They will be displayed in the site's social list component.
 	// The keys (e.g., 'github', 'twitter') are fixed and correspond to specific icons.
 	socials: {
-		email: "mailto:your-email@example.com",
-		github: "",
+		email: "mailto:xm3lh8pv@anonaddy.me",
+		github: "https://github.com/LadySith",
 		googlescholar: "",
 		semanticscholar: "",
 		dblp: "",
 		substack: "",
 		facebook: "",
-		twitter: "",
+		twitter: "https://x.com/_LadySith",
 		threads: "",
-		instagram: "",
+		instagram: "https://www.instagram.com/_ladysith",
 		mastodon: "",
-		bluesky: "",
-		calendar: "",
-		kofi: "",
+		bluesky: "https://bsky.app/profile/sithe.me",
+		calendar: "https://calendar.notion.so/meet/sithe/30mins",
+		linkedin: "https://www.linkedin.com/in/sithencube",
+		kofi: "https://ko-fi.com/ladysith",
 		"buy-me-a-coffee": "",
 		// This link is for forked repo you'll end up having. Feel free to change it to your needs.
-		"this-github-repo": "https://github.com/nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
+		"this-github-repo": "",
 	},
 
 	// === Analytics Tracking ===
@@ -141,7 +142,7 @@
 		"google-analytics": {
 			"use-ga": true,
 			// Your Google Analytics 4 Measurement ID (e.g., G-XXXXXXXXXX).
-			"public-ga-tracking-id": "",
+			"public-ga-tracking-id": "G-BH8M5L7SJV",
 		},
 		// Umami is a privacy-focused, open-source analytics alternative to Google Analytics.
 		umami: {
@@ -179,24 +180,27 @@
 	comments: {
 		// Giscus is a comments system powered by GitHub Discussions. It's free and open-source. Go here for the process of setting it up: https://giscus.app/
 		giscus: {
-			"data-repo": "nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
-			"data-repo-id": "R_kgDOK0FuUA",
-			"data-category": "Announcements",
-			"data-category-id": "DIC_kwDOK0FuUM4CbZ5A",
-			"data-mapping": "pathname",
-			"data-input-position": "top",
-			"data-reactions-enabled": true,
+					"data-repo": "LadySith/ladysith.github.io",
+        	"data-repo-id": "R_kgDORM6UGA",
+        	"data-category": "Comments",
+        	"data-category-id": "DIC_kwDORM6UGM4C2I5F",
+        	"data-mapping": "pathname",
+        	"data-reactions-enabled": "1",
+        	"data-emit-metadata": "0",
+        	"data-input-position": "top",
+        	"data-lang": "en",
+        	"data-loading": "lazy"
 		},
 
 		// Display comments from Bluesky posts related to your blog posts.
 		"bluesky-comments": {
-			"show-comments-from-bluesky": false,
+			"show-comments-from-bluesky": true,
 			"auto-search-for-match": {
 				// If true, the site will automatically search for a Bluesky post by the specified author
 				// that contains a link to the current blog post and a specific emoji.
-				"turn-on-auto-search": false,
+				"turn-on-auto-search": true,
 				// Your Bluesky handle (e.g., "yourname.bsky.social").
-				author: "",
+				author: "sithe.me",
 				// The emoji used in your Bluesky post to signify it's a blog post "echo" and should be searched.
 				"echo-feed-emoji": "",
 			},
@@ -223,7 +227,7 @@
 		// Warning: This can significantly increase build time, especially for sites with many images, but will be very helpful for your site size (because there isn't multiple size image rendering).
 		"optimize-images": true,
 		// If true, all pages/posts are converted to markdown format and saved alongside the HTML output for easy use with LLMs and other tools.
-		"process-content-to-markdown": true,
+		"process-content-to-markdown": false,
 	},
 
 	// === Shortcodes ===
