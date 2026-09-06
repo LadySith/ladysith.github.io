@@ -24,7 +24,7 @@ const socialImageURL = new URL(
 	getNavLink(ogImage ? ogImage : `/og-image/${HOME_PAGE_SLUG}.png`),
 	Astro.url,
 ).href;
-const faviconLink = getNavLink("/favicon.ico");
+const faviconLink = getNavLink("/favicon.svg");
 const isBuildOrPreviewMode = import.meta.env.MODE === "production";
 // Use provided author or fallback to site author
 const metaAuthor = author || siteInfo.author;
